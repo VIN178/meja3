@@ -22,7 +22,7 @@ Repositori ini bukan sekadar tumpukan kode, melainkan sebuah simulasi zona tempu
 
 ---
 
-## 🛸 Awak Kapal Meja 3 (The Crew)
+## 🛸 Anggota Meja 3 (The Crew)
 
 Guna mencapai tujuan misi, tim dibagi menjadi dua peran krusial. Berikut adalah visualisasi orkestra kolaborasi kami:
 
@@ -102,7 +102,7 @@ Kekuatan inti pembangunan fitur. Bekerja secara paralel, berkolaborasi, dan sali
     <!-- Anggota 4 -->
     <td align="center">
       <a href="https://github.com/USERNAME_ZAKY_DI_SINI">
-        <img src="https://api.dicebear.com/8.x/avataaars/svg?seed=Zaky" width="100px;" alt="Zaky"/><br />
+      <img src="https://api.dicebear.com/8.x/micah/svg?seed=Zaky" width="100px;" alt="Zaky"/><br />
         <sub><b>Zaky</b></sub>
       </a><br />
       <img src="https://img.shields.io/badge/Role-Member-green?style=flat-square" alt="Role Member">
