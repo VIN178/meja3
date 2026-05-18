@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biodata - Kelompok Meja 3</title>
+    <style>
+      /* =========================================
+           1. RESET & BASE STYLES
+           Mereset margin/padding bawaan browser agar 
+           tampilan konsisten di semua perangkat.
+        ========================================= */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background-color: #f8fafc; /* Latar belakang abu-abu sangat terang agar Card menonjol */
+        color: #334155;
+        line-height: 1.6;
+      }
+
+      /* =========================================
+           2. HERO SECTION (HEADER)
+           Bagian atas untuk judul kelompok. Menggunakan
+           gradien untuk memberikan kesan modern.
+        ========================================= */
+      .hero {
+        background: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%);
+        color: white;
+        text-align: center;
+        padding: 4rem 2rem;
+        margin-bottom: 3rem;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      }
+
+      .hero h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+        letter-spacing: 1px;
+      }
+
+      .hero p {
+        font-size: 1.1rem;
+        opacity: 0.9;
+      }
+
+      /* =========================================
+           3. MAIN CONTAINER & FLEXBOX LAYOUT
+           Pendekatan Flexbox untuk menangani 5 item
+           dengan sempurna di berbagai ukuran layar.
+        ========================================= */
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem 4rem 2rem;
+      }
+
+      .card-wrapper {
+        display: flex;
+        flex-wrap: wrap; /* Memungkinkan item turun ke baris baru */
+        gap: 2rem;
+        justify-content: center; /* Kunci untuk membuat 2 item terbawah berada di tengah */
+      }
+
+      /* =========================================
+           4. CARD COMPONENT
+           Desain kartu profil dengan efek interaktif.
+        ========================================= */
+      .card {
+        background: white;
+        border-radius: 12px;
+        padding: 2.5rem 1.5rem;
+        text-align: center;
+        width: 100%;
+        max-width: 320px; /* Lebar maksimal tiap kartu */
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+        border: 1px solid #e2e8f0;
+        transition:
+          transform 0.3s ease,
+          box-shadow 0.3s ease;
+      }
+
+      /* Umpan balik visual saat kursor diarahkan (hover) */
+      .card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+      }
+
+      .avatar {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: #e0f2fe;
+        color: #0ea5e9;
+        font-size: 1.5rem;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 1.5rem auto;
+        border: 3px solid #bae6fd;
+      }
+
+      .card h3 {
+        font-size: 1.3rem;
+        color: #0f172a;
+        margin-bottom: 1.2rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid #e2e8f0;
+      }
+
+      .card .info-group {
+        margin-bottom: 0.8rem;
+        text-align: left; /* Informasi detail lebih mudah dibaca jika rata kiri */
+      }
+
+      .card .info-label {
+        display: block;
+        font-size: 0.85rem;
+        color: #64748b;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      .card .info-value {
+        font-size: 1rem;
+        color: #334155;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header / Hero Section -->
+    <header class="hero">
+      <h1>Kelompok Meja 3</h1>
+      <p>Biodata dan Informasi Kontak Anggota</p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+      <div class="card-wrapper">
+        <!-- Profil 1 -->
+        <div class="card">
+          <div class="avatar">Atha</div>
+          <h3>Kordinator</h3>
+          <div class="info-group">
+            <span class="info-label">Alamat</span>
+            <span class="info-value">Jl. Merdeka No. 10, Jakarta Pusat</span>
+          </div>
+          <div class="info-group">
+            <span class="info-label">No. Telepon</span>
+            <span class="info-value">0812-3456-7891</span>
+          </div>
+        </div>
+
+        <!-- Profil 2 -->
+        <div class="card">
+          <div class="avatar">Ridho</div>
+          <h3>Anggota</h3>
+          <div class="info-group">
+            <span class="info-label">Alamat</span>
+            <span class="info-value">Semarang, JL Jangli Gabeng</span>
+          </div>
+          <div class="info-group">
+            <span class="info-label">No. Telepon</span>
+            <span class="info-value">0857-7071-5562</span>
+          </div>
+        </div>
+
+        <!-- Profil 3 -->
+        <div class="card">
+          <div class="avatar">A3</div>
+          <h3>Anggota</h3>
+          <div class="info-group">
+            <span class="info-label">Alamat</span>
+            <span class="info-value"
+              >Komp. Mawar Indah Raya No. 99, Surabaya</span
+            >
+          </div>
+          <div class="info-group">
+            <span class="info-label">No. Telepon</span>
+            <span class="info-value">0853-1122-3344</span>
+          </div>
+        </div>
+
+        <!-- Profil 4 -->
+        <div class="card">
+          <div class="avatar">A4</div>
+          <h3>Anggota</h3>
+          <div class="info-group">
+            <span class="info-label">Alamat</span>
+            <span class="info-value"
+              >Jl. Pahlawan Revolusi No. 5, Yogyakarta</span
+            >
+          </div>
+          <div class="info-group">
+            <span class="info-label">No. Telepon</span>
+            <span class="info-value">0896-5566-7788</span>
+          </div>
+        </div>
+
+        <!-- Profil 5 -->
+        <div class="card">
+          <div class="avatar">A5</div>
+          <h3>Anggota</h3>
+          <div class="info-group">
+            <span class="info-label">Alamat</span>
+            <span class="info-value">Jl. Diponegoro KM 12, Semarang</span>
+          </div>
+          <div class="info-group">
+            <span class="info-label">No. Telepon</span>
+            <span class="info-value">0811-9988-7766</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
