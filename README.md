@@ -25,26 +25,6 @@ Repositori ini bukan sekadar tumpukan kode, melainkan sebuah simulasi zona tempu
 ## 🛸 Anggota Meja 3 (The Crew)
 
 Guna mencapai tujuan misi, tim dibagi menjadi dua peran krusial. Berikut adalah visualisasi orkestra kolaborasi kami:
-
-<br>
-
-<!-- BAGIAN ANIMASI DAN PENGANTAR -->
-<table border="0" width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <!-- Animasi representasi kolaborasi tim -->
-      <img src="https://p7.itc.cn/images01/20220301/b87455d3151f4788876c4f0f6f059293.gif" width="80%" alt="Team Collaboration Animation">
-    </td>
-    <td>
-      <h3>Operasi ini dijalankan dengan struktur:</h3>
-      <ul>
-        <li><b>1 Koordinator:</b> Sang dirigen yang memastikan harmoni <i>branch</i> dan menjaga <i>main pipeline</i> tetap bersih.</li>
-        <li><b>4 Anggota:</b> Para <i>engineer</i> berbakat yang fokus melakukan eksperimen di <i>feature branch</i> dan mengirimkan inovasi melalui PR.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
 <br>
 
 ### 👨‍✈️ Sang Koordinator (The Commando)
@@ -128,7 +108,6 @@ Untuk menjaga repositori tetap rapi, kami menyepakati alur kerja berikut:
 ---
 
 <div align="center">
-  <img src="https://api.netlify.com/api/v1/badges/9b616785-5a21-4f10-9111-e63d411e74a8/deploy-status" alt="Deploy Status Badge">
-  <br>
+ <br>
   <sub>Dimonitor oleh Kelompok Meja 3. Hak Cipta Belajar Bersama.</sub>
 </div>
