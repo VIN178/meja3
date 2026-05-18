@@ -1,7 +1,7 @@
 # 🚀 Project: Mission Collaboration - Meja 3
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=200&section=header&text=Kelompok%20Meja%203&fontSize=70&animation=fadeIn&fontAlignY=35" alt="Header Render" />
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=0ea5e9,3b82f6&height=250&section=header&text=Kelompok%20Meja%203&fontSize=70&animation=fadeIn&fontAlignY=40&desc=Mission%20Collaboration&descAlignY=60&descAlign=62" alt="Wave Header" />
 </p>
 
 <p align="center">
